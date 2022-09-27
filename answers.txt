@@ -1,0 +1,22 @@
+Q1)
+for key, value in os.environ.items():
+    env[key] = value
+
+
+Q2) "QUERY_STRING"
+
+Q3) "HTTP_USER_AGENT"
+
+Q4) Via a form. That is, form = cgi.FieldStorage() and then form.getvalue("name") etc.
+
+Q5) "Set-Cookie: key=value ... \r\n"
+
+Q6) "HTTP_COOKIE"
+
+Q7) Cookies are sent by the browser to the server.
+    The server can use the cookie to identify the user,
+    and their past sessions, e.g. are they already logged in or not.
+    It's also used, for example, to track the user to get thier preferences
+    to imporve the user experience and advertising personalization.
+
+Q8) https://github.com/adit333/cgi-lab
